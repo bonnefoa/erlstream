@@ -1,0 +1,19 @@
+%%-*- mode: erlang -*-
+{application, erlstream,
+ [
+  {description, "erlstream"},
+  {vsn, "1"},
+  {modules, []},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib,
+                  inets,
+                  crypto,
+                  public_key,
+                  ssl
+                 ]},
+  {mod, { erlstream_app, []}},
+  {env, [{conf, "config.txt"}]}
+ ]}.
+

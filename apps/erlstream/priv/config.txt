@@ -1,0 +1,16 @@
+{url,"https://stream.twitter.com/1/statuses/filter.json"}.
+{key,"a_key"}.
+{secret,"a_secret"}.
+{token,"a_token"}.
+{tokenSecret,"a_token_secret"}.
+{keywords, ["some_keywords"] }.
+{follow,[]}.
+
+{host, "localhost"}.
+{port, "5672"}.
+
+{exchange, "stream_exchange"}.
+{durable, true}.
+
+{queue, <<"test_stream">>}.
+
